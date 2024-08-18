@@ -132,8 +132,8 @@ button:hover {
 }
 
     </style>
-    <!-- <script src="//api.shareus.io/verify.js" defer></script>
-    <script type="module" src="https://injectshrslinkblog.com/popup/script.js"> </script> -->
+    <script src="//api.shareus.io/verify.js" defer></script>
+    <script type="module" src="https://injectshrslinkblog.com/popup/script.js"> </script>
 </head>
 <body>
     <div class="container">
@@ -177,8 +177,6 @@ button:hover {
         </div>
         <div class="footer">
             <p>Disclaimer: This tool is for educational purposes only. Use responsibly.</p>
-            <button id="creatorChannelBtn">Contact Creator</button> <br><br>
-            <button id="telegramChannelBtn">Check out Our Telegram Channel</button>
         </div>
     </div>
     <script>
@@ -213,9 +211,9 @@ button:hover {
             promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
         },
         6: {
-    name: 'Twerk Race 3D',
-    appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
-    promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c'
+            name: 'Twerk Race 3D',
+            appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+            promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c'
         }
     };
 
@@ -234,7 +232,6 @@ button:hover {
     const copyStatus = document.getElementById('copyStatus');
     const previousKeysContainer = document.getElementById('previousKeysContainer');
     const previousKeysList = document.getElementById('previousKeysList');
-    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
 
     const initializeLocalStorage = () => {
         const now = new Date().toISOString().split('T')[0];
@@ -457,13 +454,7 @@ button:hover {
         });
     });
 
-    document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('https://telegram.me/Sam_Dm_bot', '_blank');
-    });
 
-    telegramChannelBtn.addEventListener('click', () => {
-        window.open('https://telegram.me/Insta_Buy_Follower', '_blank');
-    });
 });
 
     </script>
